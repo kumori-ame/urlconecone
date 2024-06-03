@@ -1,0 +1,71 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background: #222;
+    color: #eee;
+    padding: 20px;
+    margin: 0;
+    left: 20px;
+    box-shadow: 0 5px 10px #494949;
+}
+#form-url{
+    margin: 10% 30%;
+    display: flex;
+    flex-direction: column;
+}
+#form-url label{
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+#form-url input{
+    height: 5vh;
+}
+.output-field{
+    border: 2px solid #6980ff;
+    background-color: white;
+    max-width: 60%;
+    margin: 0 20%;
+}
+#output{
+    text-align: left;
+    margin: 0 auto;
+}
+#cp-btn{
+    position: relative;
+    left: 20%;
+    width: 18vw;
+    height: 9vh;
+
+    font-size: 2.5vh;
+    font-weight: bold;
+
+
+    margin: 40px auto;
+    background: white;
+    border: #222 solid 2px;
+    border-radius: 25px;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+#cp-btn:hover{
+    border: #797979 solid 2px;
+    background: #4560d6;
+    color: white;
+    transition: 0.3s;
+}
+#cp-btn:active{
+    position: relative;
+    top: 1px;
+}
+.ver{
+    color: #555;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
