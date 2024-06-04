@@ -2,6 +2,7 @@ body{
     font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
+
 }
 h1{
     background: #222;
@@ -25,11 +26,49 @@ h1{
 #form-url input{
     height: 5vh;
 }
+.toggle-mode{
+    display: flex;
+    flex-direction: row;
+
+    position: relative;
+    right: 0;
+}
+.toggle-mode p{
+    padding: 10px 20px;
+    font-size: 2vh;
+    border-radius: 20px;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+#toggle-item.active{
+    background: #8297f1;
+}
+#toggle-store.active{
+    background: #f1c582;
+}
+#toggle-item{
+    border: #2c2c2c solid 2px;
+}
+#toggle-store{
+    border: #2c2c2c solid 2px;
+}
+
+
 .output-field{
     border: 2px solid #6980ff;
     background-color: white;
     max-width: 60%;
     margin: 0 20%;
+}
+.output-mode{
+    margin: 0 20%;
+    padding:10px 20px;
+}
+#output-item{
+    border-left: #8297f1 solid 5px;
+}
+#output-store{
+    border-left: #f1c582 solid 5px;
 }
 #output{
     text-align: left;

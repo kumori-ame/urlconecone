@@ -14,15 +14,21 @@
         <h1>URLコネコネくん</h1>
         <form action="#" id="form-url">
             <label for="origin-url">URLを入力してください</label>
+            <div class="toggle-mode">
+                <p class="toggles active" id="toggle-item">Item</p>
+                <p class="toggles" id="toggle-store">Store</p>
+            </div>
             <input type="text" name="origin-url" id="origin-url">
             <input type="text" style="display: none;">
         </form>
 
-        <div class="output-field" style="display: none;">
+        <p class="output-mode" id="output-item" style="display: none;">アイテム</p>
+        <p class="output-mode" id="output-store" style="display: none;">店舗</p>
+        <div class="output-field" style="display: none;">    
             <a href=""class="output"id="output"></a>
         </div>
         <button id="cp-btn" style="display: none;">クリップボードにコピー</button>
 
-        <p class="ver">v1.0.0</p>
+        <p class="ver">v1.1.0</p>
         <script src="url_edit.js"></script>
     </body> 
