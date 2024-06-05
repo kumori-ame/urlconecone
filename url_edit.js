@@ -16,7 +16,7 @@ form.addEventListener('change', function(){
     OUT_modeHUD_item.style.display = 'none';
     OUT_modeHUD_store.style.display = 'none';
 
-    var shaped_link = "";
+    shaped_link = "";
 
     if(shape_mode_item){
         shaped_link = in_url.substr(0,in_url.indexOf('html'))+"html?"+item_LINK;
