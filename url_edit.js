@@ -1,7 +1,7 @@
 const form = document.getElementById('form-url');
 const cp_btn = document.getElementById('cp-btn');
 const toggle_btn = document.getElementsByClassName('toggles');
-const item_LINK = "aff_fcid=e12457f5253f4e4481753b8cff7e3c2c-1722674175379-01625-_DEhDuIF&tt=CPS_NORMAL&aff_fsk=_DEhDuIF&aff_platform=shareComponent-detail&sk=_DEhDuIF&aff_trace_key=e12457f5253f4e4481753b8cff7e3c2c-1722674175379-01625-_DEhDuIF&terminal_id=3835b73c06c04cee80737d5c309a10cc&afSmartRedirect=y";
+const item_LINK = "aff_fcid=e12457f5253f4e4481753b8cff7e3c2c-1722674175379-01625-_DEhDuIF&tt=CPS_NORMAL&aff_fsk=_DEhDuIF&aff_platform=shareComponent-detail&sk=_DEhDuIF&aff_trace_key=e12457f5253f4e4481753b8cff7e3c2c-1722674175379-01625-_DEhDuIF";
 const store_LINK = "spm=a2g0o.detail.0.0.577bngVpngVpcF&aff_fcid=e2470c74d8234449a5a4b0eba3b90fe5-1722674899857-07630-_DEr4fpN&tt=CPS_NORMAL&aff_fsk=_DEr4fpN&aff_platform=portals-tool&sk=_DEr4fpN&aff_trace_key=e2470c74d8234449a5a4b0eba3b90fe5-1722674899857-07630-_DEr4fpN&terminal_id=a307a4c317cc4af1a301041c480a5ae3";
 
 var shape_mode_item = true;
