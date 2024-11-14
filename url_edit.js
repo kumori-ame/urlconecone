@@ -1,8 +1,8 @@
 const form = document.getElementById('form-url');
 const cp_btn = document.getElementById('cp-btn');
 const toggle_btn = document.getElementsByClassName('toggles');
-const item_LINK = "aff_fcid=e12457f5253f4e4481753b8cff7e3c2c-1722674175379-01625-_DEhDuIF&tt=CPS_NORMAL";
-const store_LINK = "spm=a2g0o.detail.0.0.577bngVpngVpcF&aff_fcid=e2470c74d8234449a5a4b0eba3b90fe5-1722674899857-07630-_DEr4fpN&tt=CPS_NORMAL";
+const item_LINK = "aff_fcid=e12457f5253f4e4481753b8cff7e3c2c-1722674175379-01625-_DEhDuIF&tt=cps_normal";
+const store_LINK = "spm=a2g0o.detail.0.0.577bngVpngVpcF&aff_fcid=e2470c74d8234449a5a4b0eba3b90fe5-1722674899857-07630-_DEr4fpN&tt=cps_normal";
 
 var shape_mode_item = true;
 
